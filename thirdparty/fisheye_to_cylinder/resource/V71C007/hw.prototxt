@@ -1,0 +1,585 @@
+sensor_config {
+  car_id: "HP-30-V71-AC-007"
+  cam_param {
+    name: front_middle_camera
+    fx: 1966.18018
+    fy: 1972.7655
+    cx: 924.457153
+    cy: 482.131287
+    distortion: -0.5730021
+    distortion: 0.300641984
+    distortion: 0.0199238546
+    distortion: 0.00576875964
+    distortion: 0.000441205688
+    image_width: 1920
+    image_height: 1080
+    image_format: RGB
+    camera_model: PINHOLE
+    model: "SG2-AR0231C-0202-GMSL-H60"
+    type: SENYUN
+    pose {
+      translation {
+        x: 2.17911029
+        y: -0.0161630213
+        z: 1.10459828
+      }
+      attitude_ypr {
+        yaw: 1.54390383
+        pitch: -3.13408017
+        roll: 1.66483486
+      }
+      attitude {
+        w: 0.514054358
+        x: -0.471491128
+        y: 0.480361789
+        z: -0.531692386
+      }
+    }
+  }
+  cam_param {
+    name: front_long_camera
+    fx: 3868.58789
+    fy: 3874.06958
+    cx: 945.928894
+    cy: 490.208344
+    distortion: -0.350812763
+    distortion: 0.116457045
+    distortion: -4.18671846
+    distortion: 0.00399585627
+    distortion: 0.00143013021
+    image_width: 1920
+    image_height: 1080
+    image_format: RGB
+    camera_model: PINHOLE
+    model: "SG2-AR0231C-0202-GMSL-H30"
+    type: SENYUN
+    pose {
+      translation {
+        x: 2.34775209
+        y: 0.00986420829
+        z: 1.05492985
+      }
+      attitude_ypr {
+        yaw: 1.53655601
+        pitch: -3.12962675
+        roll: 1.66393352
+      }
+      attitude {
+        w: 0.510801852
+        x: -0.471132517
+        y: 0.481182039
+        z: -0.53439635
+      }
+    }
+  }
+  cam_param {
+    name: front_short_camera
+    fx: 947.839294
+    fy: 951.572937
+    cx: 919.755249
+    cy: 568.311157
+    distortion: -0.361664563
+    distortion: 0.198355764
+    distortion: -0.0758499056
+    distortion: 0.000132044457
+    distortion: -0.00124488177
+    image_width: 1920
+    image_height: 1080
+    image_format: RGB
+    camera_model: PINHOLE
+    model: "SG2-AR0231C-0202-GMSL-H120"
+    type: SENYUN
+    pose {
+      translation {
+        x: 2.23892593
+        y: -0.126895964
+        z: 1.10385442
+      }
+      attitude_ypr {
+        yaw: 1.53350031
+        pitch: -3.13238978
+        roll: 1.63537753
+      }
+      attitude {
+        w: 0.503900826
+        x: -0.47690779
+        y: 0.490196049
+        z: -0.52758956
+      }
+    }
+  }
+  cam_param {
+    name: front_left_camera
+    fx: 1302.14612
+    fy: 1302.84351
+    cx: 908.604553
+    cy: 525.555115
+    distortion: -0.476778
+    distortion: 0.265388578
+    distortion: -0.0821729451
+    distortion: 0.000945346605
+    distortion: 0.000319846178
+    image_width: 1920
+    image_height: 1080
+    image_format: RGB
+    camera_model: PINHOLE
+    model: "SG2-AR0231C-0202-GMSL-H100"
+    type: SENYUN
+    pose {
+      translation {
+        x: 2.70972395
+        y: 0.969806612
+        z: 0.545520127
+      }
+      attitude_ypr {
+        yaw: 2.33688092
+        pitch: -3.13947392
+        roll: 1.54061306
+      }
+      attitude {
+        w: 0.640446961
+        x: -0.660671175
+        y: 0.280362099
+        z: -0.273383141
+      }
+    }
+  }
+  cam_param {
+    name: front_right_camera
+    fx: 1300.10291
+    fy: 1300.42505
+    cx: 997.654907
+    cy: 523.865601
+    distortion: -0.482244372
+    distortion: 0.295416504
+    distortion: -0.118118227
+    distortion: -0.000574101869
+    distortion: -0.00155799498
+    image_width: 1920
+    image_height: 1080
+    image_format: RGB
+    camera_model: PINHOLE
+    model: "SG2-AR0231C-0202-GMSL-H100"
+    type: SENYUN
+    pose {
+      translation {
+        x: 2.68655729
+        y: -1.0484364
+        z: 0.569903433
+      }
+      attitude_ypr {
+        yaw: 0.771364
+        pitch: 3.13002
+        roll: 1.58259714
+      }
+      attitude {
+        w: -0.271336287
+        x: 0.260615408
+        y: -0.652824402
+        z: 0.657477379
+      }
+    }
+  }
+  cam_param {
+    name: rear_right_camera
+    fx: 1298.23828
+    fy: 1299.06213
+    cx: 948.01532
+    cy: 578.438843
+    distortion: -0.477902502
+    distortion: 0.286177069
+    distortion: -0.116452068
+    distortion: -0.000532935606
+    distortion: 0.00102031254
+    image_width: 1920
+    image_height: 1080
+    image_format: RGB
+    camera_model: PINHOLE
+    model: "SG2-AR0231C-0202-GMSL-H100"
+    type: SENYUN
+    pose {
+      translation {
+        x: 2.52109361
+        y: -1.03595948
+        z: 0.657652
+      }
+      attitude_ypr {
+        yaw: 2.36001682
+        pitch: 0.00631704321
+        roll: -1.58619368
+      }
+      attitude {
+        w: -0.265185237
+        x: 0.273462385
+        y: 0.657963932
+        z: -0.649598777
+      }
+    }
+  }
+  cam_param {
+    name: rear_left_camera
+    fx: 1306.65698
+    fy: 1304.93884
+    cx: 988.498169
+    cy: 551.960693
+    distortion: -0.479858309
+    distortion: 0.258018196
+    distortion: -0.074635379
+    distortion: -0.000696324
+    distortion: -0.00344783184
+    image_width: 1920
+    image_height: 1080
+    image_format: RGB
+    camera_model: PINHOLE
+    model: "SG2-AR0231C-0202-GMSL-H100"
+    type: SENYUN
+    pose {
+      translation {
+        x: 2.57242751
+        y: 0.983533382
+        z: 0.621156
+      }
+      attitude_ypr {
+        yaw: 0.748331
+        pitch: -0.00293301092
+        roll: -1.59377277
+      }
+      attitude {
+        w: 0.650962174
+        x: -0.665326595
+        y: -0.26235038
+        z: 0.254482031
+      }
+    }
+  }
+  cam_param {
+    name: rear_middle_camera
+    fx: 1969.16418
+    fy: 1969.35278
+    cx: 966.235657
+    cy: 578.616333
+    distortion: -0.578927398
+    distortion: 0.310059488
+    distortion: -0.044369176
+    distortion: -0.00179585442
+    distortion: 0.00257618562
+    image_width: 1920
+    image_height: 1080
+    image_format: RGB
+    camera_model: PINHOLE
+    model: "SG2-AR0231C-0202-GMSL-H60"
+    type: SENYUN
+    pose {
+      translation {
+        x: -0.416198611
+        y: -0.00891541783
+        z: 1.28729618
+      }
+      attitude_ypr {
+        yaw: 1.55563736
+        pitch: -0.00373193505
+        roll: -1.60026681
+      }
+      attitude {
+        w: -0.497236222
+        x: 0.510230601
+        y: 0.504378557
+        z: -0.487876147
+      }
+    }
+  }
+  cam_param {
+    name: right_fisheye_camera
+    fx: 469.435394
+    fy: 469.852112
+    cx: 967.581665
+    cy: 538.946777
+    distortion: 0.0640982
+    distortion: -0.0122619588
+    distortion: 0.00125413574
+    distortion: -0.000395158
+    image_width: 1920
+    image_height: 1080
+    image_format: RGB
+    camera_model: EQUIDISTANT
+    model: "SG2-AR0231C-0202-GMSL-H190"
+    type: SENYUN
+    pose {
+      translation {
+        x: 2.14122534
+        y: -0.929897547
+        z: 0.640055537
+      }
+      attitude_ypr {
+        yaw: 0.0138874985
+        pitch: -3.09764218
+        roll: 1.21419847
+      }
+      attitude {
+        w: -0.0140862009
+        x: -0.0182368234
+        y: 0.821001172
+        z: -0.570461273
+      }
+    }
+  }
+  cam_param {
+    name: front_fisheye_camera
+    fx: 470.145721
+    fy: 470.931427
+    cx: 949.934387
+    cy: 542.910217
+    distortion: 0.0637737662
+    distortion: -0.0107594291
+    distortion: 0.00140405376
+    distortion: -0.000608808594
+    image_width: 1920
+    image_height: 1080
+    image_format: RGB
+    camera_model: EQUIDISTANT
+    model: "SG2-AR0231C-0202-GMSL-H190"
+    type: SENYUN
+    pose {
+      translation {
+        x: 3.90823197
+        y: 0.0178015232
+        z: 0.501123488
+      }
+      attitude_ypr {
+        yaw: 1.59784853
+        pitch: 3.12981296
+        roll: 1.04803765
+      }
+      attitude {
+        w: -0.36211431
+        x: 0.618382394
+        y: -0.605988503
+        z: 0.345332325
+      }
+    }
+  }
+  cam_param {
+    name: rear_fisheye_camera
+    fx: 470.77243
+    fy: 471.311188
+    cx: 960.65625
+    cy: 539.924927
+    distortion: 0.0634473041
+    distortion: -0.00634438358
+    distortion: -0.00217616698
+    distortion: 0.000430867862
+    image_width: 1920
+    image_height: 1080
+    image_format: RGB
+    camera_model: EQUIDISTANT
+    model: "SG2-AR0231C-0202-GMSL-H190"
+    type: SENYUN
+    pose {
+      translation {
+        x: -0.941009462
+        y: -0.100865208
+        z: 0.656048536
+      }
+      attitude_ypr {
+        yaw: 1.60092795
+        pitch: -0.0012447295
+        roll: -1.97873175
+      }
+      attitude {
+        w: -0.382835537
+        x: 0.581698775
+        y: 0.599986613
+        z: -0.393801481
+      }
+    }
+  }
+  cam_param {
+    name: left_fisheye_camera
+    fx: 470.09082
+    fy: 470.961731
+    cx: 963.229614
+    cy: 537.852905
+    distortion: 0.0646895617
+    distortion: -0.0112142526
+    distortion: 0.00236971141
+    distortion: -0.000936869124
+    image_width: 1920
+    image_height: 1080
+    image_format: RGB
+    camera_model: EQUIDISTANT
+    model: "SG2-AR0231C-0202-GMSL-H190"
+    type: SENYUN
+    pose {
+      translation {
+        x: 2.12899709
+        y: 0.990905285
+        z: 0.663555205
+      }
+      attitude_ypr {
+        yaw: 0.030661257
+        pitch: -0.0420120955
+        roll: -1.97347426
+      }
+      attitude {
+        w: 0.551497
+        x: -0.833771646
+        y: -0.0243668
+        z: -0.00906921457
+      }
+    }
+  }
+  lidar_param {
+    pose {
+      translation {
+        x: 1.2
+        y: -0.02
+        z: 1.741
+      }
+      attitude_ypr {
+        yaw: 1.570436
+        pitch: -0.00494567119
+        roll: 0.000200694674
+      }
+      attitude {
+        w: 0.70723182
+        x: 0.00181921071
+        y: -0.00167792873
+        z: 0.706977367
+      }
+    }
+    name: MIDDLE_LIDAR
+    type: RS_128
+  }
+  lidar_param {
+    pose {
+      translation {
+        x: 3.90830946
+        y: -0.0157917775
+        z: 0.249369413
+      }
+      attitude_ypr {
+        yaw: 3.11334372
+        pitch: -3.11897635
+        roll: -3.13651156
+      }
+      attitude {
+        w: 0.999833524
+        x: 0.00238044048
+        y: -0.011342613
+        z: -0.0140943062
+      }
+    }
+    name: FRONT_LIDAR
+    type: RS_M1
+  }
+  lidar_param {
+    pose {
+      translation {
+        x: 3.6315
+        y: 0.754886031
+        z: 0.299191833
+      }
+      attitude_ypr {
+        yaw: 0.405408174
+        pitch: -0.00384937087
+        roll: -0.000393416354
+      }
+      attitude {
+        w: 0.979524
+        x: 0.000194794731
+        y: -0.0019248788
+        z: 0.20131804
+      }
+    }
+    name: FRONT_LEFT_LIDAR
+    type: RS_M1
+  }
+  lidar_param {
+    pose {
+      translation {
+        x: -0.836003423
+        y: 0.0161644239
+        z: 0.346940577
+      }
+      attitude_ypr {
+        yaw: 3.11958766
+        pitch: -0.0195150096
+        roll: 0.00364039745
+      }
+      attitude {
+        w: 0.010983998
+        x: 0.00977676827
+        y: 0.00171264773
+        z: 0.999890387
+      }
+    }
+    name: REAR_LIDAR
+    type: RS_M1
+  }
+  lidar_param {
+    pose {
+      translation {
+        x: 3.62709808
+        y: -0.736949265
+        z: 0.302490324
+      }
+      attitude_ypr {
+        yaw: 2.70149255
+        pitch: 3.13535047
+        roll: -3.13232112
+      }
+      attitude {
+        w: 0.975868106
+        x: 0.00520518329
+        y: 0.00203388534
+        z: -0.218289226
+      }
+    }
+    name: FRONT_RIGHT_LIDAR
+    type: RS_M1
+  }
+  rtk_param {
+    pose {
+      translation {
+        x: -0.0109794
+        y: -0.00622441
+        z: 0.333611608
+      }
+      attitude_ypr {
+        yaw: -1.89294755
+        pitch: 1.55951226
+        roll: -179.854538
+      }
+      attitude {
+        w: 0.00149391149
+        x: -0.999769866
+        y: 0.0165340621
+        z: 0.0135860574
+      }
+    }
+  }
+}
+vehicle_param {
+  wheelbase: 2.915
+  wheeltrackF: 1.681
+  wheeltrackR: 1.69
+  overhangF: 0.981
+  overhangR: 0.979
+  wheeldiameter: 0.786
+  wheelwidth: 0.235
+  overalllength: 4.875
+  overallwidth: 1.96
+  overallhigh: 1.69
+  minturningradius: 5.95
+  maxgradeability: 50
+  maxsteeringangle: 8.3945
+  front_edge_to_center: 3.872
+  rear_edge_to_center: 0.944
+  left_edge_to_center: 0.98
+  right_edge_to_center: 0.98
+  max_abs_speed_when_stopped: 0.05
+  max_acceleration: 3.6
+  max_deceleration: 11
+  max_steer_angle_rate: 1.396
+  steer_ratio: 15.5
+}
